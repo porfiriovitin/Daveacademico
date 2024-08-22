@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logos e favicons/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./estilos/chamados.css">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Chamados</title>
+</head>
+<body>
+    <div class="container mt-5 tela__chamados">
+        <h1 class="fw-bold titulo mb-5 text-center">Criar Chamado</h1>
+        <form id="chamadoForm">
+            <div>
+                <label for="titulo" class="form-label problema mb-3">O que está acontecendo?</label>
+                <input type="text" class="form-control resumo" id="titulo" required>
+            </div>
+            <div class="my-4">
+                <label for="descricao" class="form-label problema mb-3">Descreva seu problema em detalhes</label>
+                <textarea class="form-control" id="descricao" rows="3" required></textarea>
+            </div>
+            <div class="my-4">
+                <label for="sistema" class="form-label problema mb-3">Qual o sistema?</label>
+                <select class="form-select" id="sistema" required>
+                    <option value="SAP">SAP</option>
+                    <option value="TOTVS">TOTVS</option>
+                    <option value="HARDWARE">HARDWARE</option>
+                    <option value="OUTROS">OUTROS...</option>
+                </select>
+            </div>
+            <div class="my-4">
+                <label for="anexo" class="form-label problema mb-3">Anexar Imagem</label>
+                <input type="file" class="form-control" id="anexo">
+            </div>
+            <button type="submit" class="btn text-light mt-5 d-flex mx-auto">Enviar Chamado</button>
+        </form>
+    </div>
+
+<!-- Após efetuar o chamado, o consultor deve recarregar a página para o chamado constar em sua tela -->
+
+    <script src="./js/chamados.js"></script>
+</body>
+</html>

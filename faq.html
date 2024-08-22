@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logos e favicons/favicon.ico">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/faq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Faq</title>
+</head>
+<body class="corpo">
+    <!-- navbar -->
+    <section class="barradenavegacao">
+        <div class="barradenav">
+        <nav class="navbar navbar-expand-lg cordanavbar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img class="logodave" src="img/logos e favicons/Dav-e horizontal cinza sem fundo.png" alt="Logo" width="150" height="auto">
+                </a>
+                <button class="border-light navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon menuhamburguer"></span>
+                </button>
+                <div class="itensnav collapse navbar-collapse justify-content-end p-0 m" id="navbarSupportedContent">
+                    <ul class="navbar-nav gap-4">
+                        <li class="nav-item">
+                            <a class="nav-link active text-light" aria-current="page" href="index.html">Ínicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="about.html">Sobre o projeto</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-light" href="aboutus.html" rel="noopener noreferrer">Sobre nós</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-light" href="faq.html" rel="noopener noreferrer">Faq</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        </section>
+
+  <!-- faq -->
+   <section class="faq">
+
+    <h2 class="titulo fw-bold text-center fs-2">Perguntas frequentes</h2>
+    
+    <!-- acordion -->
+     <div class="perguntaserespostas mt-5 mx-auto w-75">
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    O que é o Dav-e?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    O Dav-e é um <strong>chatbot alimentado por inteligência artificial, </strong> projetado para auxiliar em tarefas como atendimento ao cliente, suporte técnico e responder a perguntas comuns. Ele pode ser integrado em aplicações web para melhorar a interação com os usuários.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Como o Dav-e pode me ajudar?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    O Dav-e pode ajudar a responder perguntas frequentes, resolver problemas técnicos, direcionar chamados para o suporte adequado e fornecer informações relevantes de maneira rápida e eficiente. Ele é programado para entender e responder de forma natural, tornando a experiência do usuário mais fluida.                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Como posso conversar com o Dav-e?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    Para iniciar uma conversa com o Dav-e, basta clicar no botão "Conversar com o Dav-e" disponível na interface da aplicação. Isso abrirá uma janela de chat pop-up onde você pode digitar suas perguntas ou problemas, e o Dav-e responderá prontamente.                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Quais tecnologias são usadas no Dav-e?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    O Dav-e utiliza a API da OpenAI para processar e gerar respostas com base em inteligência artificial. Ele é integrado a aplicações web por meio de HTML, CSS e JavaScript, garantindo compatibilidade e facilidade de uso.                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    O Dav-e pode entender qualquer tipo de pergunta?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    O Dav-e é projetado para entender uma ampla gama de perguntas, especialmente aquelas relacionadas ao contexto da aplicação em que está integrado. No entanto, como qualquer IA, ele pode ter limitações em tópicos muito específicos ou complexos. Se isso ocorrer, ele tentará fornecer a melhor resposta possível ou redirecionar você para ajuda adicional.                  </div>
+                </div>
+              </div>
+          </div>
+     </div>
+     <footer class="rodape text-center cordanavbar">
+        <p class="rodape__texto text-light p-3">Dv tech | Este é um trabalho acadêmico da FIAP</p>
+      </footer>
+   </section>
+
+   
+  
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>

@@ -1,0 +1,29 @@
+@import url(./home.css);
+
+.faq{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.perguntaserespostas{
+   flex: 1;
+}
+
+.rodape{
+    height: 4em;
+}
+
+/* media queries */
+
+  /* iphones se e demais celulares pequenos */
+  @media (min-width: 320px) and (max-width: 389px) {
+  
+    .perguntaserespostas{
+        width: 100%;
+    }
+   
+  }
+  
+  

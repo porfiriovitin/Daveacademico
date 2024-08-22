@@ -1,0 +1,58 @@
+:root{
+    --fonteprincipal: "Inter", sans-serif;
+    --background: #151515;
+    --corprincipal: #19456A;
+}
+
+body{
+   color: #ffff;
+   background-color:var(--background);
+}
+
+.tela__chamados{
+    border: 1px solid #ffff;
+    padding: 4em;
+    border-radius: 48px;
+    box-shadow: 10px 10px 10px black;
+}
+
+.titulo{
+    font-family: var(--fonteprincipal);
+    font-size: 2em;
+}
+
+.problema{
+    font-family: var(--fonteprincipal);
+    font-size: 1.2em;
+}
+
+.resumo, .resumo:focus{
+    background-color: var(--background);
+    color: #ffff;
+    font-family: var(--fonteprincipal);
+}
+
+
+.form-control, .form-control:focus{
+    background-color: #151515;
+    outline: none;
+    font-family:var(--fonteprincipal);
+    color: #ffff;
+}
+
+.form-select, .form-select:focus{
+    background-color: var(--background);
+    color: #ffff;
+    font-family: var(--fonteprincipal);
+    outline: none;
+}
+
+.btn{
+    font-family: var(--fonteprincipal);
+    background-color: #19456A;
+}
+
+.btn:hover{
+    background-color: #133653;
+    transition: 0.3ms;
+}
